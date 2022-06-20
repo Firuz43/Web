@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
+    color: white;
+}
+
+.main {
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.55)), url(./ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.main-text {
+    margin-left: 80px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    border-radius: 40px;
+    text-align: center;
+}
+
+/* Apply rules after scrolling */
+
+.bgColor {
+    transition: all 1s;
+    background-color: #212529;
+}
+
+/* Apply rules after scrolling */
+

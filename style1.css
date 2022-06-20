@@ -3,11 +3,10 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    
 }
 
-body {
-    height: 500vh;
-}
 
 .banner {
     width: 100%;
@@ -68,7 +67,7 @@ ul {
     color: #fff;
 }
 
-content h1 {
+.content h1 {
     font-size: 70px;
     margin-top: 80px;
 }
@@ -97,4 +96,12 @@ button {
     transition: all 1s;
     background-color: #212529;
     color: black;
+}
+
+/* Section  */
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
